@@ -7,8 +7,8 @@ metadata:
   labels:
     app.kubernetes.io/name: pacman
 spec:
-  tower_auth_secret: toweraccess
-  job_template_name: f5-update-dns-load-balancer
+  tower_auth_secret: toweraccess1
+  job_template_name: Demo_Job_Template
   extra_vars:
     API_DOMAIN: demo.red-chesterfield.com
     # The AWS Route53 NS Record must exist with NameServers:
